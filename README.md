@@ -4,7 +4,9 @@ Ryzen Master SDK Monitoring DLL used in OCMaestro
 # How to use it in C#
 
 Except CPUUsage always use a Mutex or a syncPoint.
+
 Don't query in parallel from different threads or when programming the SMU!
+
 CPUUsage is a diff of CPU usage in a 100ms delta; don't call it more frequently than 125ms. 
 
 If the following driver files are present in the same directory, the DLL will auto-install the RM driver:
