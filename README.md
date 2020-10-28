@@ -12,8 +12,11 @@ CPUUsage is a diff of CPU usage in a 100ms delta; don't call it more frequently 
 If the following driver files are present in the same directory, the DLL will auto-install the RM driver:
 
 AMDRyzenMasterDriver.inf
+
 AMDRyzenMasterDriver.cat
+
 AMDRyzenMasterDriver.sys
+
 
 # Methods
 
